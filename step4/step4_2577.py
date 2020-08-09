@@ -14,6 +14,7 @@ multi_arr = list(map(int, str(multi)))
 # 생성 및 0으로 초기화
 count_arr = [0] * 10
 
+# i는 1부터 증가하는것이 아니라 리스트의 값이 된다.
 for i in multi_arr :
     count_arr[i] += 1
 
